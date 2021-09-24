@@ -1,0 +1,90 @@
+body {
+  background: url("../images/bgleaves.jpg") no-repeat;
+  background-size: cover;
+  color: #a290bc;
+  font-family: cursive;
+  font-style: normal;
+}
+.container {
+  margin-top: 20%;
+}
+
+table {
+  text-align: center;
+  width: 70%;
+  padding: 2px;
+  background-size: cover;
+  border-spacing: 2px;
+  font-style: normal !important;
+}
+th {
+  background-color: rgb(0, 97, 0);
+  border: solid rgb(255, 248, 248) 1px;
+  color: white;
+  width: fit-content;
+  padding: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+td {
+  border: rgb(92, 151, 105) 1px solid;
+  padding: 2px;
+  width: 140px;
+  height: 30px;
+  background-color: rgb(225, 255, 217);
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.name {
+  text-align: center;
+}
+.name h1 {
+  font-size: 50px;
+  color: rgb(0, 53, 0);
+  padding: 0%;
+  margin: 0%;
+  font-family: Berkshire Swash;
+}
+.time {
+  background-color: rgb(114, 190, 131);
+  color: rgb(0, 53, 0);
+}
+
+.subjects {
+  margin-top: -38%;
+  margin-left: 63%;
+  position: relative;
+  z-index: 1;
+  list-style: symbols("star");
+  color: rgb(58, 1, 1);
+  font-family: Allerta Stencil;
+}
+.head-subject {
+  text-align: center;
+  margin-left: -23%;
+  font-family: Aclonica;
+  font-size: large;
+}
+.board {
+  width: 22%;
+  height: 22%;
+  margin-top: -22%;
+  margin-left: 60%;
+}
+.board img {
+  height: 160%;
+  width: 160%;
+  position: relative;
+}
+li {
+  padding: 2px;
+}
+.attribute {
+  margin-top: 23%;
+  text-align: center;
+  font-family: Courgette;
+  color: rgb(47, 92, 69);
+}
